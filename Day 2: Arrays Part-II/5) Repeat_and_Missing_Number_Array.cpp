@@ -1,7 +1,5 @@
 vector<int> Solution::repeatedNumber(const vector<int> & arr) {
-
-
-	      int xorVal=arr[0],n=arr.size();
+	int xorVal=arr[0],n=arr.size();
         
         for(int i=1;i<n;i++){
             xorVal = xorVal^ arr[i];
