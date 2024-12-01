@@ -4,7 +4,7 @@ public:
         unordered_map<int,int> mp;
         stack<int> st;
         
-        for(int n:nums2){       //fining next greater element 
+        for(int n:nums2){       //finding next greater element 
             while(st.size() && st.top() < n){
                 mp[st.top()] = n;
                 st.pop();
