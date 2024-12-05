@@ -1,3 +1,5 @@
+//you can traverse first k nodes then again a pointer from start. whhen the first node is reaching NUll, from there you have to chnage the nodes
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
