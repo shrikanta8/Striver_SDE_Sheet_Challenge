@@ -1,3 +1,6 @@
+//helps us in detecting negative cycle
+// multi source shortest path 
+
 void shortest_distance(vector<vector<int>>&matrix){
 	    int n = matrix.size();
 		for (int i = 0; i < n; i++) {
