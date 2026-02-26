@@ -1,5 +1,3 @@
-//don't works for negative cycle!
-
 //it can detect negative cycle
 
 //it works for Directed graph
