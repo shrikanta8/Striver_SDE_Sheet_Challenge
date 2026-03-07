@@ -28,3 +28,8 @@ bool graphColoring(bool graph[101][101], int m, int n) {
     return isPossible(0, graph, m, n, color);
     // your code here
 }
+
+
+Time Complexity: O(m^N), where m is the number of colors and N is the number of nodes in the graph. This is because we try to color each node with m different colors, leading to an exponential time complexity in the worst case.
+
+Space Complexity: O(N), where N is the number of nodes in the graph. This is due to the recursion stack and the color array used to store the colors assigned to each node.
