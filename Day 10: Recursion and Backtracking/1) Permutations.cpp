@@ -22,3 +22,11 @@ public:
         return ans;
     }
 };
+
+
+
+
+
+
+// Time Complexity: O(N! * N)., we generate all possible permutations and printing or storing each permutation takes O(N) time.
+// Space Complexity: O(N! * N) + O(N), space used to store all possible permutations and auxiliary stack space.
