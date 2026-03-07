@@ -36,3 +36,7 @@ public:
         return ds;
     }
 };
+
+
+Time Complexity: O(N!), we try all possible permutations of placing the queens.
+Space Complexity: O(N), three boolean arrays are stored to check for safety.
