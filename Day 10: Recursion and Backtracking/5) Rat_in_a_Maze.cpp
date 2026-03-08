@@ -29,4 +29,10 @@ void findPath(vector<vector<int>> &arr, int n, int x, int y, vector<string>& tot
             
         return totAns;
         // Your code goes here
-    }5
+    }
+
+
+
+
+Time Complexity: O(4^(N*N)),, because on every cell we need to try 4 different directions.
+Space Complexity: O(N*N), additional space for visited array and maximum Depth of the recursion tree(auxiliary space).
