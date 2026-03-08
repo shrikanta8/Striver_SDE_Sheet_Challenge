@@ -33,3 +33,34 @@ public:
         return dp[s] = result;
     }
 };
+
+
+
+//other soln
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        int n=s.length();
+        unordered_set<string> st;
+
+        for(string& ele:wordDict){
+            st.insert(ele);
+        }
+        vector<int> dp(n+1);
+        string str;
+        dp[n]=1;
+
+        for(int i=n-1;i>=0;i--){
+            str="";
+            for(int j=i;j<n;j++){
+                str+=s[j];
+                if(st.find(str)!=st.end() && dp[j+1]){
+                    dp[i]=true;
+                    break;
+                }
+            }
+            
+        }
+        return dp[0];
+    }
+};
