@@ -35,3 +35,8 @@ vector<int> Solution::solve(vector<int> &A, vector<int> &B, int C) {
     }
     return ans;
 }
+
+
+Time Complexity: O(k * log k),The loop runs k times, and in each iteration, we perform heap insertions and deletions, which cost O(log k). In total, this results in O(k log k) time.
+
+Space Complexity: O(k), The heap and visited set can grow to size k in the worst case.
