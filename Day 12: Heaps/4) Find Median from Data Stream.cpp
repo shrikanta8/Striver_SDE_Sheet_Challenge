@@ -46,3 +46,10 @@ public:
         
     }
 };
+
+
+
+
+Time Complexity:O(N log N + M) , Because each call to addNum() takes O(log N), and each call to findMedian() is O(1).
+
+Space Complexity: O(N) , We store all the numbers across two heaps. The max-heap stores the smaller half of numbers (up to N/2) and the min-heap stores the larger half (up to N/2) So, the total space used is O(N), where N is the number of elements added to the data structure.
