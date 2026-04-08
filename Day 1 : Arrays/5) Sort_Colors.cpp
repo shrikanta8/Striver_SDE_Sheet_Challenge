@@ -8,7 +8,8 @@ public:
             if( nums[m] == 0) 
                 swap(nums[s++],nums[m++]);
             else if( nums[m] == 1) 
-                swap(nums[s], nums[m++]);
+                // swap(nums[s], nums[m++]); 
+                m++;
             else 
                 swap(nums[m], nums[e--]);
             
