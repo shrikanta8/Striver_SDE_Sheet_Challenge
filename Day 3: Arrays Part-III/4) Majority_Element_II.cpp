@@ -1,3 +1,19 @@
+// if (cnt1 == 0 ) {
+//     cnt1 = 1;
+//     el1 = nums[i]; 
+// } else if (cnt2 == 0 ) {
+//     cnt2 = 1;
+//     el2 = nums[i]; 
+// } else if (nums[i] == el1) {
+//     cnt1++;
+// } else if (nums[i] == el2) {
+//     cnt2++; 
+// } else {
+//     cnt1--; 
+//     cnt2--;
+// }
+// above is wrong as we have to first check the ele1/2 match
+
 class Solution {
 public:
     
